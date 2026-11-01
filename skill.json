@@ -1,0 +1,22 @@
+{
+  "name": "genpark-personal-agent-cranial-retinal-ganglion-cell-oct-neurodegeneration-skill",
+  "version": "1.0.0",
+  "description": "Optical Coherence Tomography (OCT) ganglion cell-inner plexiform layer (GCIPL) thinning rate & preclinical neurodegeneration sentinel.",
+  "category": "personal_agent",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "audit_oct_gcipl_neurodegeneration",
+      "description": "Optical Coherence Tomography (OCT) ganglion cell-inner plexiform layer (GCIPL) thinning rate & preclinical neurodegeneration sentinel.",
+      "sample_input": {
+        "mean_gcipl_thickness_um": 72.4,
+        "baseline_gcipl_thickness_um": 74.5,
+        "interval_years": 2.5,
+        "age_years": 62
+      }
+    }
+  ]
+}
